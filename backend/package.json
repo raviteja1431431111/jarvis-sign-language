@@ -1,0 +1,11 @@
+{
+  "name": "jarvis-backend",
+  "version": "1.0.0",
+  "description": "Jarvis Backend - Sign Language Recognition API",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "python -m flask --app app run --debug",
+    "test": "pytest"
+  }
+}
